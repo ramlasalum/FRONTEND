@@ -1,0 +1,571 @@
+.PatientList {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.PatientList h2 {
+  margin-top: 0;
+}
+
+.PatientList table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.PatientList th,
+.PatientList td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.PatientList th {
+  background-color: #f0f0f0;
+}
+
+.PatientList td {
+  vertical-align: top;
+}
+
+
+.patient-table {
+  margin-top: 20px;
+}
+
+.patient-table th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.patient-table td {
+  vertical-align: middle;
+}
+
+.patient-table button {
+  margin-right: 5px;
+}
+
+
+
+/* Patient.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#registration-form h2,
+#patient-dashboard h2,
+#notifications h2 {
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.dashboard-item {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-item h3 {
+  margin-top: 0;
+}
+
+.dashboard-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-item ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.dashboard-item ul li:last-child {
+  border-bottom: none;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
+
+
+/* Dashboard.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background-color: #97c987;
+  padding: 15px;
+  height: 1000px;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  height: 1000px;
+}
+
+.sidenav ul li {
+  margin: 10px 0;
+}
+
+.sidenav ul li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.sidenav ul li a.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.sidenav ul li a .icon {
+  margin-right: 10px;
+}
+
+.page {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.intro, .features {
+  margin: 20px 0;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.feature img {
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+
+
+section {
+  padding: 1em;
+  margin: 1em;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #4CAF50;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#patient-dashboard .dashboard-item {
+  margin-bottom: 20px;
+}
+
+#patient-dashboard .dashboard-item h3 {
+  margin-bottom: 10px;
+}
+
+#patient-dashboard .dashboard-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#patient-dashboard .dashboard-item ul li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#notifications {
+  background-color: #ffeb3b;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.AddPatient {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.AddPatient h2 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.AddPatient label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.AddPatient input[type="text"],
+.AddPatient input[type="email"],
+.AddPatient input[type="tel"],
+.AddPatient input[type="number"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.AddPatient input[type="text"]:focus,
+.AddPatient input[type="email"]:focus,
+.AddPatient input[type="tel"]:focus,
+.AddPatient input[type="number"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.AddPatient button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.AddPatient button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.AddPatient button[type="submit"]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* login css */
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+} */
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+} 
+
+h2 {
+  margin-bottom: 30px;
+}
+
+form {
+  width: 300px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-group button a {
+  color: white;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.links a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Appointment css */
+.Appointment {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.Appointment h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Appointment table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.Appointment th,
+.Appointment td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.Appointment th {
+  background-color: #f2f2f2;
+}
+
+.Appointment button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.Appointment button:hover {
+  opacity: 0.8;
+}
+
+.Appointment button[type="button"] {
+  background-color: green;
+  color: white;
+}
+
+.Appointment button[type="button"]:last-child {
+  background-color: blue;
+}
+
+
+
+/* AppoinmentList */
+.AppointmentList {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.green {
+  background-color: green;
+  color: white;
+}
+
+button.blue {
+  background-color: blue;
+  color: white;
+}
+
